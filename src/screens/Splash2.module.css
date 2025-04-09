@@ -10,7 +10,7 @@
   background-color: transparent;
   padding: 0px;
   /* Added horizontal padding for smaller devices */
-  background: linear-gradient(135deg, rgba(37, 99, 235, 1) 0%, rgba(29, 78, 216, 1) 100%);
+  background: #4F46E5;
 
 }
 
