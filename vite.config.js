@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'icons/192.png', 'icons/512.png'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', '192.png', '512.png'],
      
       manifest: {
         name: 'dexvault',
@@ -19,12 +19,12 @@ export default defineConfig({
         theme_color: '#000000',
         icons: [
           {
-            src: 'icons/192.png',
+            src: '192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'icons/512.png',
+            src: '512.png',
             sizes: '512x512',
             type: 'image/png',
           },
