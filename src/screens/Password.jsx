@@ -5,7 +5,7 @@ import { faArrowLeft, faFingerprint, faBackspace } from '@fortawesome/free-solid
 import styles from './Passcode.module.css';
 import { checkPasscode } from "../store/action/appStorage";
 import OnscreenModal from "../Modal/OnscreenModal";
-import AuthModal from '../modal/AuthModal';
+import AuthModal from '../Modal/AuthModal';
 import { useDispatch } from "react-redux";
 
 

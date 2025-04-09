@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faFingerprint, faBackspace } from '@fortawesome/free-solid-svg-icons';
 import styles from './Passcode.module.css';
-import AuthModal from '../modal/AuthModal';
+import AuthModal from '../Modal/AuthModal';
 import OnscreenModal from "../Modal/OnscreenModal";
 import { createPasscode } from "../store/action/appStorage";
 import { useDispatch } from "react-redux";

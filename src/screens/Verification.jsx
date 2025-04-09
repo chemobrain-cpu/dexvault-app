@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { verifyEmail } from '../store/action/appStorage';
-import AuthModal from '../modal/AuthModal';
+import AuthModal from '../Modal/AuthModal';
 import Spinner from "react-activity/dist/Spinner";
 import "react-activity/dist/Spinner.css";
 import styles from './Verification.module.css';
