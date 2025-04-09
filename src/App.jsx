@@ -5,6 +5,7 @@ import FallBackComponent from './components/Fallback';
 
 import { useSelector, useDispatch } from 'react-redux';
 import ProtectedRoute from './components/ProtectedRoute';
+import InstallBanner from './components/PWA';
 
 import Splash from './screens/Splash';
 import Splash2 from './screens/Splash2';
@@ -78,6 +79,7 @@ if(isLoading){
           <Route path='/notifications' element={<ProtectedRoute><NotificationPage /></ProtectedRoute>} />
         </Routes>
       </Suspense>
+      <InstallBanner/>
     </div>
   );
 }
