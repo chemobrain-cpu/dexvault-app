@@ -1,0 +1,38 @@
+
+/*poppins font import stays here*/
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+::placeholder {
+  font-size: 1rem;
+  color:rgb(134, 134, 134);
+}
+
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+  -webkit-box-shadow:0 0 0 30px white inset !important
+}
+
+button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  transform: scale(1.05); /* Example effect */
+  box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.5); /* Optional visual cue */
+}
+
+
+
+p,div,h1,h2.h3,h4,h5,h6,button,span,input,select{
+  font-family: 'ABeeZee';
+}

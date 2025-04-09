@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: 'ABeeZee';
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 12px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'ABeeZee', sans-serif;
+    line-height: 20px;
+    max-width: 280px;
+  }
+  
+  .image {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  
+
+  
+  .buttonContent {
+    background-color: #4f46e5; /* Vibrant blue */
+    padding:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .buttonText {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  
+@media (max-width: 768px) {
+
+  .innerContainer {
+      width: 80%;
+      border: none;
+      box-shadow: none;
+  }
+  .progressContainer {
+      width: 80%;
+      /* Adds space between the progress bar and other elements */
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .title {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
