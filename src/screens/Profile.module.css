@@ -60,7 +60,7 @@
 }
 
 .navItem:nth-of-type(2) {
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
     color: #4F46E5;
 }
 
@@ -154,7 +154,7 @@
   background-color: #ffffff;
 }
 .sendreceivebutton {
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
     color: black;
 
 }
@@ -164,7 +164,7 @@
     border-radius: 45px;
     width: 45px;
     height: 45px;
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
     position: relative;
 }
 

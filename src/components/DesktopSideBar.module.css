@@ -41,7 +41,7 @@
 }
 
 .navItem:hover {
-    background-color: #f0f4f8;
+    background-color: #fdfffd;
     color: #4F46E5;
     transform: translateX(4px);
     box-shadow: 0 4px 12px rgba(52, 152, 219, 0.08);
@@ -56,9 +56,10 @@
 }
 
 .navItem.active {
-    background-color: #eaf6fc;
+    background-color: #fdfdfd;
     color: #4F46E5;
     font-weight: 600;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.08);
 }
 
 .navItem.active svg {

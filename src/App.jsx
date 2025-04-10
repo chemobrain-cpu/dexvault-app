@@ -28,6 +28,10 @@ import Settings from './screens/Settings';
 import Send from './screens/Send';
 import Profile from './screens/Profile';
 import NotificationPage from './screens/NotificationPage';
+import Transactions from './screens/Transaction';
+
+
+
 
 import { checkIfIsLoggedIn } from "./store/action/appStorage";
 
@@ -77,6 +81,8 @@ if(isLoading){
           <Route path='/send' element={<ProtectedRoute><Send /></ProtectedRoute>} />
           <Route path='/profile' element={<ProtectedRoute><Profile /></ProtectedRoute>} />
           <Route path='/notifications' element={<ProtectedRoute><NotificationPage /></ProtectedRoute>} />
+          <Route path='/transactions' element={<ProtectedRoute><Transactions /></ProtectedRoute>} />
+          
         </Routes>
       </Suspense>
       <InstallBanner/>

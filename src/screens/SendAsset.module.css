@@ -103,7 +103,7 @@
   background-color: #ffffff;
 }
 .sendreceivebutton {
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
     color: black;
 
 }
@@ -113,7 +113,7 @@
     border-radius: 45px;
     width: 45px;
     height: 45px;
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
     position: relative;
 }
 
@@ -303,7 +303,7 @@
     border-radius: 30px;
     border: 1px solid #f8f9fa;
     outline: none;
-    background-color: #f6f6f6;
+    background-color: #fdfdfd;
 }
 
 .cryptoList {

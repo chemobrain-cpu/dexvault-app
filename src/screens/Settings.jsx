@@ -90,20 +90,7 @@ const Settings = () => {
                     <span className={styles.slider}></span>
                   </label>
                 </div>
-                <div className={styles.settingsItem}>
-                  <FaBell className={styles.icon} /> Price Alerts
-                  <label className={styles.switch}>
-                    <input type="checkbox" checked readOnly />
-                    <span className={styles.slider}></span>
-                  </label>
-                </div>
-                <div className={styles.settingsItem}>
-                  <FaNewspaper className={styles.icon} /> News & Announcements
-                  <label className={styles.switch}>
-                    <input type="checkbox" checked readOnly />
-                    <span className={styles.slider}></span>
-                  </label>
-                </div>
+                
               </div>
 
             </div>
