@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease-in-out;
+    animation: fadeInUp 0.6s ease;
+  }
+  
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: #f9fafb;
+    margin-bottom: 16px;
+    font-family: 'ABeeZee', sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    background-color: #fff;
+    border-color: #4F46E5;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+  }
+  
+  .button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4F46E5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #4338CA;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(79, 70, 229, 0.25);
+  }
+  
+  .disabledButton {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  .error {
+    color: #e11d48;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+  
+  .termsText {
+    font-size: 13px;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 18px;
+  }
+  
+  .link {
+    color: #4F46E5;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .loader {
+    color: #fff;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .innerContainer {
+      padding: 25px;
+      border-radius: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .innerContainer {
+      padding: 20px;
+      width: 100%;
+      max-width: 100%;
+      border-radius: 12px;
+    }
+  
+    .title {
+      font-size: 22px;
+    }
+  
+    .input {
+      font-size: 15px;
+    }
+  }
+  

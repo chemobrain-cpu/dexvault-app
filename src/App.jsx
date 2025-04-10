@@ -32,6 +32,8 @@ import Transactions from './screens/Transaction';
 
 import Invest from './screens/Invest';
 import Assets from './screens/Assets';
+import Registeration from './screens/Registeration';
+
 
 
 
@@ -86,6 +88,8 @@ if(isLoading){
           <Route path='/transactions' element={<ProtectedRoute><Transactions /></ProtectedRoute>} />
           <Route path='/assets' element={<ProtectedRoute><Assets /></ProtectedRoute>} />
           <Route path='/invest' element={<ProtectedRoute><Invest /></ProtectedRoute>} />
+          
+          <Route path='/registeration' element={<Registeration />} />
           
         </Routes>
       </Suspense>
