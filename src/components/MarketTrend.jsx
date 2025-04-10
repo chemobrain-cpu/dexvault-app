@@ -2,7 +2,6 @@ import React, { useMemo } from 'react';
 import styles from './MarketTrend.module.css';
 
 const MarketTrend = ({ data }) => {
-
     // Memoize the chartData to prevent recalculating on every render
     const generateChartData = (token) => {
         return Array(10).fill().map((_, i) => ({

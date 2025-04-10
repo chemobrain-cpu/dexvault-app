@@ -9,7 +9,7 @@
     padding: 5px;
     padding-top: 14px;
     padding-bottom: 14px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 10px;
     background-color: rgb(255, 255, 255);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -48,6 +48,7 @@
     flex-direction: column;
     align-items: start;
     margin-left: 10px;
+    justify-content: center;
   }
   
   .cryptocardName {
@@ -55,12 +56,14 @@
     text-align: start;
     font-weight: 900;
     font-family: 'ABeeZee';
+    font-size:18px;
   }
   
   .cryptocardPrice {
-    margin-top: 0px;
+    
     font-size: 13px;
     font-weight: 900;
+    font-size:18px;
   }
   
   .cryptocardChange {
