@@ -30,6 +30,8 @@ import Profile from './screens/Profile';
 import NotificationPage from './screens/NotificationPage';
 import Transactions from './screens/Transaction';
 
+import Invest from './screens/Invest';
+import Assets from './screens/Assets';
 
 
 
@@ -82,6 +84,8 @@ if(isLoading){
           <Route path='/profile' element={<ProtectedRoute><Profile /></ProtectedRoute>} />
           <Route path='/notifications' element={<ProtectedRoute><NotificationPage /></ProtectedRoute>} />
           <Route path='/transactions' element={<ProtectedRoute><Transactions /></ProtectedRoute>} />
+          <Route path='/assets' element={<ProtectedRoute><Assets /></ProtectedRoute>} />
+          <Route path='/invest' element={<ProtectedRoute><Invest /></ProtectedRoute>} />
           
         </Routes>
       </Suspense>

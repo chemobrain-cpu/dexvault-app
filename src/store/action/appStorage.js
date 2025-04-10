@@ -47,6 +47,11 @@ let retrievedAdminStoredToken = () => {
   };
 }
 
+//http://192.168.43.ccccc195:9090
+
+
+//https://dexvault-backend.onrender.com
+
 export const checkIfIsLoggedIn = () => {
   return async (dispatch, getState) => {
     let backgroundColorStyle = localStorage.getItem('@backgroundColorStyle');
