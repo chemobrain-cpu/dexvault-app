@@ -23,13 +23,10 @@ input:-webkit-autofill:active{
 button {
   transition: all 0.3s ease;
   cursor: pointer;
+  outline: none;
+  box-shadow: none;
 }
 
-button:focus {
-  outline: none;
-  transform: scale(1.05); /* Example effect */
-  box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.5); /* Optional visual cue */
-}
 
 
 

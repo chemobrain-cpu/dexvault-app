@@ -24,7 +24,7 @@ export default function PasscodeScreen() {
             if (newPasscode.length === 4) {
                 navigate('/confirm-passcode', {
                     state: { code: newPasscode,email:email }
-                    
+
                 });
             }
         }
@@ -51,10 +51,10 @@ export default function PasscodeScreen() {
                             <div className={styles.progressBarFilled} style={{ width: '100%' }}></div>
                         </div>
                         <div className={styles.progressbar}>
-                            <div className={styles.progressBarFilled} style={{ width: '50%' }}></div>
+                            <div className={styles.progressBarFilled} style={{ width: '100%' }}></div>
                         </div>
                         <div className={styles.progressbar}>
-                            <div className={styles.progressBarFilled} style={{ width: '0%' }}></div>
+                            <div className={styles.progressBarFilled} style={{ width: '50%' }}></div>
                         </div>
                         <div className={styles.progressbar}>
                             <div className={styles.progressBarFilled} style={{ width: '0%' }}></div>

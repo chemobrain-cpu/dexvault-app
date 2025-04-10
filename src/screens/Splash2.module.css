@@ -11,8 +11,9 @@
   padding: 0px;
   /* Added horizontal padding for smaller devices */
   background: #4F46E5;
-
 }
+
+
 
 /* Container with gradient background */
 .container {
@@ -43,7 +44,10 @@
   text-align: center;
   font-family: 'ABeeZee', sans-serif;
   letter-spacing: 1px;
+  width:300px;
 }
+
+
 
 /* Image style */
 .image {
@@ -57,12 +61,12 @@
 /* Continue button style */
 .continueButton {
   background-color: #3e40d7;
-  padding: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   /* Adjusted for better responsiveness */
   font-weight: 600;
   font-family: 'ABeeZee', sans-serif;
@@ -85,7 +89,7 @@
   .welcomeText {
     font-size: 2.5rem;
     /* Smaller font size for tablets */
-    margin: 20px 0;
+    margin: 30px 0;
   }
 
   .image {
